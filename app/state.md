@@ -6,8 +6,8 @@ Version: v2.0 · Date: 2026-11-13 · Time: 12:30 · Created by: Claude (asked by
 |---|---|
 | Screens | S1–S10 rebuilt as a working front end; S7 has Default, Empty, Loading, Error |
 | Data | Kept in the browser (localStorage); reset from the review bar |
-| Checked | Both flows run in a headless browser with no errors; values worked out from typed input (Claude). Not yet looked at by Nest |
-| Next step | Nest checks the prototype in the browser and answers the guesses below |
+| Checked | Both flows run with no errors; screenshots of every screen sent to Nest (2026-11-13). Nest approved the guesses |
+| Next step | Test with real people; the 6 uncovered cases are not built yet |
 
 ## 2. Decisions
 | Decision | Why | What we rejected |
@@ -28,9 +28,11 @@ Version: v2.0 · Date: 2026-11-13 · Time: 12:30 · Created by: Claude (asked by
 | Guess: made-up facts for INV-0038 and INV-0036 (items, contacts, activity) and items for INV-0042 (Book cover design €700 + 20%) | Only totals and dates were drawn | Leaving S8 empty |
 | Guess: new wording where the design had none: "Nothing is missing.", "No overdue invoices remain.", "N follow-ups sent · last …", "Follow-up sent to …", "Correction sent to …", "Next: what changed", lines marked "· changed" / "· removed" | Needed so results follow what the person typed | — |
 | Kept panels whose only content was a review note: "Numbering and record" (S6), "Who follows up" (S9), now heading only | Do not remove design parts | Removing the panels |
+| Guesses above approved | Nest approved them on 2026-11-13 | — |
 
 ## 3. History
 | Version | Date and time | Created by | What changed | Why |
 |---|---|---|---|---|
 | v1.0 | 2026-11-13, 11:00 | Claude (asked by Nest) | Folder created: S1–S10 frames copied, index.html, README, state | Start of the prototype |
 | v2.0 | 2026-11-13, 12:30 | Claude (asked by Nest) | Rebuilt as a working front end: one folder per screen, data file, browser storage, review bar, real input and totals; frame copies removed | Nest's new brief: build from the wireframes with real input |
+| v2.1 | 2026-11-13, 13:00 | Claude (asked by Nest) | Status: guesses approved, screenshots sent | Nest approved and asked for a run |
