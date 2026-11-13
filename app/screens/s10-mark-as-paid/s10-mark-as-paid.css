@@ -1,0 +1,5 @@
+.s10 .s10-center{display:flex;justify-content:center;padding-top:20px}
+.s10 .s10-card{width:620px;max-width:100%;border:1px solid #DCE2E0;border-radius:14px;padding:28px;display:flex;flex-direction:column;gap:18px;box-shadow:0 18px 40px -24px rgba(15,40,38,.45)}
+.s10 .s10-card h2{margin:0;font-size:20px}
+.s10 .s10-note{background:#E3F0EE;color:#0F5C5A;border-radius:8px;padding:10px 12px;font-size:14px;font-weight:600}
+.s10 .s10-btns{display:flex;justify-content:flex-end;gap:8px;flex-wrap:wrap}

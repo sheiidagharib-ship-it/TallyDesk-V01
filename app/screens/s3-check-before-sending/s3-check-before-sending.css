@@ -1,0 +1,9 @@
+.s3 .s3-cols{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px;align-items:start}
+.s3 .s3-banner{display:flex;align-items:center;gap:10px;border-radius:8px;padding:10px 12px;font-size:14px;font-weight:600}
+.s3 .s3-warn{background:#FFF1D9;color:#8A5200}
+.s3 .s3-ok{background:#E1F3E8;color:#1E6B3D}
+.s3 .s3-row{display:grid;grid-template-columns:96px minmax(0,1fr) auto;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid #DCE2E0}
+.s3 .s3-row>.pill{justify-self:start}
+.s3 .s3-row b{font-size:14px}
+.s3 .s3-text{font-size:13px;color:#56615F}
+@media (max-width:1100px){.s3 .s3-cols{grid-template-columns:1fr}}

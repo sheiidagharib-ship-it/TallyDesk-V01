@@ -1,0 +1,11 @@
+.s1 .s1-cols{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.6fr);gap:20px}
+.s1 .s1-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.s1 .s1-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.s1 .s1-card{font:inherit;color:#1B2524;text-align:left;cursor:pointer;border:1px solid #DCE2E0;border-radius:10px;padding:14px;background:#FFFFFF;display:flex;flex-direction:column;align-items:flex-start;gap:2px;min-width:0;overflow-wrap:anywhere}
+.s1 .s1-card:hover{border-color:#B9C3C1}
+.s1 .s1-card.is-sel{border:2px solid #0F5C5A;padding:13px;box-shadow:0 0 0 3px #E3F0EE}
+.s1 .s1-add{border:1px dashed #B9C3C1;background:transparent}
+.s1 .s1-contact{font-size:13px;color:#56615F}
+.s1 .s1-email{font-size:12px;color:#56615F}
+@media (max-width:1100px){.s1 .s1-cols{grid-template-columns:1fr}}
+@media (max-width:640px){.s1 .s1-fields,.s1 .s1-cards{grid-template-columns:1fr}}

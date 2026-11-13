@@ -1,11 +1,11 @@
 # Tally Desk — state
-Version: v1.5 · Date: 2026-11-13 · Time: 11:00 · Created by: Claude (asked by Nest)
+Version: v1.6 · Date: 2026-11-13 · Time: 12:30 · Created by: Claude (asked by Nest)
 
 ## 1. Status
 | Item | Value |
 |---|---|
-| Current phase | Screens v1.0 approved; clickable prototype of S1–S10 built in app (not yet checked by Nest). Solution, Flows and screens rest on simulated interviews only; no real interviews yet |
-| Approved files | README v1.3; brief v1.0; My goal v1.1; state v1.5; Desk Research v1.0; Competitive Analysis v1.0; Interview Questions v1.0; Problem Statement v1.0; Persona v1.0; Dashboard v3.0; Solution v1.0; Flows v1.0; Wireframes v1.0 |
+| Current phase | Screens v1.0 approved; working prototype of S1–S10 in app (not yet checked by Nest); wireframes in canvas. Solution, Flows and screens rest on simulated interviews only; no real interviews yet |
+| Approved files | README v1.3; brief v1.0; My goal v1.1; state v1.6; Desk Research v1.0; Competitive Analysis v1.0; Interview Questions v1.0; Problem Statement v1.0; Persona v1.0; Dashboard v3.0; Solution v1.0; Flows v1.0; Wireframes v1.0 |
 | Open research questions | RQ1, RQ2, RQ3, RQ4 open; RQ5, RQ6 partly answered (Dashboard v3.0) |
 | Next step | Nest checks the prototype in the browser (app/README.md) |
 
@@ -48,3 +48,4 @@ K11–K20 are in brief.
 | v1.3 | 2026-11-06, 15:32 | Sheida | Moved K11–K20 to brief | All K and RQ live in brief |
 | v1.4 | 2026-11-07, 21:07 | Claude (asked by Nest) | Updated phase, approved files and RQ status; added two decisions on screens; added screen unknowns to open questions; next step set to [not stated] | Wireframes v1.0 approved; Nest asked to update state |
 | v1.5 | 2026-11-13, 11:00 | Claude (asked by Nest) | Added app folder (prototype S1–S10); updated phase, approved files, next step; added decision on code and research folders | Nest asked for a clickable prototype |
+| v1.6 | 2026-11-13, 12:30 | Claude (asked by Nest) | Added canvas folder (wireframes and flows, unchanged); app rebuilt (see app/state.md) | Nest's brief for the prototype |

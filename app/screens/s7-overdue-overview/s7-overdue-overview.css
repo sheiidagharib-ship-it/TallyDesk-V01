@@ -1,0 +1,23 @@
+.s7 .s7-counts{display:flex;gap:12px;flex-wrap:wrap}
+.s7 .s7-count{flex:1 1 180px;border:1px solid #DCE2E0;border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:2px}
+.s7 .s7-count span{font-size:13px;color:#56615F}
+.s7 .s7-count b{font-size:24px}
+.s7 .s7-table{font-size:14px}
+.s7 .s7-no{font-size:13px}
+.s7 .s7-act{padding:8px 10px;text-align:right}
+.s7 .s7-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.s7 .s7-next{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:14px;border-top:1px solid #DCE2E0;padding-top:12px}
+.s7 .s7-empty{display:flex;flex-direction:column;align-items:center;text-align:center;gap:10px;padding:60px 20px}
+.s7 .s7-empty h2{font-size:20px}
+.s7 .s7-empty p{margin:0;color:#56615F;max-width:460px}
+.s7 .s7-check{width:56px;height:56px;border-radius:50%;background:#E3F0EE;display:flex;align-items:center;justify-content:center}
+.s7 .s7-skel{display:flex;flex-direction:column;gap:18px;padding:8px 0}
+.s7 .s7-skel-counts{display:flex;gap:12px}
+.s7 .s7-skel-counts div{flex:1;height:84px;border-radius:10px;background:#EEF2F1}
+.s7 .s7-skel-row{display:grid;grid-template-columns:1fr 2fr 1fr 1fr 1fr;gap:20px;padding:10px 0;border-bottom:1px solid #DCE2E0}
+.s7 .s7-skel-row div{height:14px;border-radius:6px;background:#E6EBEA}
+.s7 .s7-loading{font-size:14px;color:#56615F}
+.s7 .s7-error{display:flex;gap:14px;align-items:flex-start;border:1px solid #8A5200;background:#FFF1D9;border-radius:10px;padding:16px}
+.s7 .s7-error svg{flex:none}
+.s7 .s7-error-text{display:flex;flex-direction:column;gap:4px;color:#1B2524;font-size:14px}
+.s7 .s7-error-text b{font-size:16px}
